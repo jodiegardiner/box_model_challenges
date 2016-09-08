@@ -6,41 +6,48 @@
         <style type="text/css">
 
         #container {
-         margin-right: auto; /*Auto margins used for centering elements*/
-         margin-left: auto; /*See previous topic*/
-         width: 960px;
-         /*background-color: #AA4639;*/
-         padding: 10px;
-        border-radius: 10px;
-        font-size: 0;
+            margin-right: auto; /*Auto margins used for centering elements*/
+            margin-left: auto; /*See previous topic*/
+            width: 960px;
+            padding: 10px;
+            border-radius: 0px;
+            font-size: 0px;
         }
         .box {
-         width: 100%;
-         height: 150px;
-         background-color: #81BBC9;
-         margin: 10px;
-         padding: 10px;
-         border-radius: 10px;        
-         font-size: 16px;
-         text-align: center;
+             width: 100%;
+             height: 150px;
+             background-color: #81BBC9;
+             margin-bottom: 10px;
+             padding: 10px 0;
+             border-radius: 10px;        
+             font-size: 16px;
+             text-align: center;
         }
 
-        #sidebar,#content {
+        #sidebar {
             display: inline-block;
             font-size: 16px;
-            width:440px;
+            width: 470px;
             height: 330px;
-        }
+            margin-right:10px;
+        }            
+
+        #content {
+            display: inline-block;
+            font-size: 16px;
+            width: 470px;
+            height: 330px;
+            margin-left:10px;
 
         </style>
     </head>
     <body>
         <div id="container">
             
-            <div class="box" >Header</div>
+            <div class="box">Header</div>
             <div class="box" id="sidebar">Sidebar</div>
             <div class="box" id="content">Content</div>
-            <div class="box" >Footer</div>
+            <div class="box">Footer</div>
         </div>
     </body>
 </html>
